@@ -35,7 +35,11 @@ The AI Chemistry Assistant is powered by the Gemini API. It answers student ques
 - GitHub Desktop — version control
 
 ## Screenshots
-*(Add your 3-5 screenshots here by dragging them into the GitHub editor, or uploading via "Add file" first and linking them)*
+<img width="1166" height="616" alt="screenshot5 ai answer" src="https://github.com/user-attachments/assets/2a33657e-227a-486f-9151-fb5ddf21d218" />
+<img width="1162" height="593" alt="screenshot 4 experiment" src="https://github.com/user-attachments/assets/05d19885-1ad5-4f41-8e00-6e740fdf8eac" />
+<img width="1162" height="593" alt="screenshot3 review" src="https://github.com/user-attachments/assets/e4103612-db95-4949-856d-ec7b00bf390e" />
+<img width="1162" height="593" alt="screenshot2 viva" src="https://github.com/user-attachments/assets/47c11a89-8be9-4315-b741-ac84382f55e0" />
+<img width="1162" height="593" alt="screenshot2-experiment" src="https://github.com/user-attachments/assets/dc84d35d-ef73-464b-a926-d14eac83dcd8" />
 
 ## How to Run Locally
 1. Clone the repository: `git clone https://github.com/ayeshaafzal5/chemlab-ai.git`
