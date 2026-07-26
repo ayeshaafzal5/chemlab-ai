@@ -1,20 +1,44 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# ChemLab AI — Chemistry Lab Assistant
 
-# Run and deploy your AI Studio app
+## About the App
+ChemLab AI is an AI-powered Chemistry Lab Assistant built for undergraduate Chemistry students. It helps students prepare for and understand laboratory experiments before practical classes and exams.
 
-This contains everything you need to run your app locally.
+## The Problem
+Chemistry students often struggle to understand laboratory experiments, remember procedures, prepare for viva questions, and revise important concepts before lab sessions and exams.
 
-View your app in AI Studio: https://ai.studio/apps/52389a76-bb16-44ab-8c52-9a811e2efc3a
+## The Solution
+ChemLab AI provides structured experiment information (aim, chemicals, apparatus, procedure, observations, safety precautions) alongside an AI Chemistry Assistant that answers questions, generates viva questions, and creates revision summaries — all tailored to the specific experiment a student is studying.
 
-## Run Locally
+## Live Demo
+🔗 https://chemlab-ai.ai.studio
 
-**Prerequisites:**  Node.js
+## Features
+- Experiment Library with search
+- Detailed experiment pages (aim, chemicals, apparatus, procedure, observations, safety, common mistakes)
+- AI Chemistry Assistant — answers student questions with experiment context
+- Chemistry-only guardrail — politely declines unrelated questions
+- AI Viva Question Generator — produces experiment-specific viva questions with answers
+- AI Revision Summary Generator — produces experiment-specific revision summaries
+- Lab Preparation Checklist — students track their readiness per experiment
 
+## The AI Feature
+The AI Chemistry Assistant is powered by the Gemini API. It answers student questions, generates viva questions, and creates revision summaries, always grounded in the specific experiment's context. It follows a system prompt I wrote to keep it accurate, safety-focused, and strictly on-topic:
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+**System Instruction:**
+> You are ChemLab AI, a Chemistry Laboratory Assistant designed to help undergraduate Chemistry students understand laboratory experiments. Your responsibilities: explain Chemistry concepts accurately and clearly; help students understand laboratory experiments including aims, chemicals, apparatus, procedures, observations, and safety precautions; generate educational viva questions and clear answers; create concise revision summaries; use simple language suitable for undergraduate students; ask for clarification if a question is unclear; never invent experimental results or claim an experiment was actually performed; always encourage appropriate laboratory safety; never provide unsafe instructions for handling hazardous chemicals beyond appropriate educational guidance; use the experiment information provided by the app as context when answering; keep all answers educational, accurate, and relevant.
+
+## Tools, Services, and AI Models Used
+- Google AI Studio (Build mode) — app generation and hosting
+- Gemini API (Gemini 3.6 Flash) — AI-powered features
+- React — frontend framework
+- GitHub — public source code repository
+- GitHub Desktop — version control
+
+## Screenshots
+*(Add your 3-5 screenshots here by dragging them into the GitHub editor, or uploading via "Add file" first and linking them)*
+
+## How to Run Locally
+1. Clone the repository: `git clone https://github.com/ayeshaafzal5/chemlab-ai.git`
+2. Install dependencies: `bun install` (or `npm install`)
+3. Add a `.env` file with your own `GEMINI_API_KEY`
+4. Run the dev server: `bun run dev` (or `npm run dev`)
