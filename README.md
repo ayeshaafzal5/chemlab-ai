@@ -1,20 +1,87 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
 
-# Run and deploy your AI Studio app
+# ChemLab AI 🧪
 
-This contains everything you need to run your app locally.
+An AI-powered Chemistry Laboratory Assistant designed to help undergraduate chemistry students prepare for laboratory practicals, revise experiments, and practice viva questions.
 
-View your app in AI Studio: https://ai.studio/apps/52389a76-bb16-44ab-8c52-9a811e2efc3a
+---
 
-## Run Locally
+# Problem
 
-**Prerequisites:**  Node.js
+Many chemistry students struggle to understand laboratory experiments before entering the lab. They often need to search multiple sources for procedures, safety precautions, viva questions, and revision notes.
 
+ChemLab AI solves this problem by providing all essential laboratory learning resources in one AI-powered application.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+
+# Live Demo
+
+(Add your Vercel deployment link here after deployment.)
+
+---
+
+# Features
+
+- 📚 Experiment Library
+- 🧪 Detailed Experiment Pages
+- 🤖 AI Chemistry Assistant
+- 📖 AI Answers Based on Experiment Context
+- 🔒 Chemistry-only Guardrail (rejects unrelated questions politely)
+- 🎓 Viva Question Generator
+- 📝 Experiment-specific Revision Summary Generator
+- ✅ Lab Preparation Checklist
+- 📱 Clean and User-Friendly Interface
+
+---
+
+# AI Feature
+
+The application includes an AI assistant that helps students understand chemistry laboratory experiments.
+
+The AI is instructed to:
+
+- Answer only chemistry laboratory questions.
+- Use the selected experiment as context.
+- Generate accurate experiment-specific viva questions.
+- Produce concise revision summaries.
+- Politely refuse unrelated questions.
+- Explain concepts in simple language suitable for undergraduate students.
+
+---
+
+# Technologies Used
+
+- Google AI Studio
+- Gemini API
+- React
+- TypeScript
+- Vite
+- GitHub
+- Vercel
+
+---
+
+# Screenshots
+
+(Add screenshots here after uploading them.)
+
+- Home Page
+- Experiment Library
+- Experiment Details
+- AI Assistant
+- Viva Question Generator
+- Revision Summary
+
+---
+
+# Installation
+
+```bash
+npm install
+npm run dev
+```
+
+---
+
+# Author
+
+Ayesha
